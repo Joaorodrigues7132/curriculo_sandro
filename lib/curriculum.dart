@@ -39,7 +39,7 @@ class Curriculum extends StatelessWidget {
           const SizedBox(height: 15),
           Center(
               child: Text(
-            " 19 ANOS | 034-9-92131003 | joaorodrigues7132@gmail.com | Rua Sebastião Lopes Pereira,777 | Coromandel,MG",
+            " 19 ANOS | 034-9-92131003 | joaorodrigues7132@gmail.com | Rua Sebastião Lopes Pereira,São Domingos,777 | Coromandel,MG",
             style: TextStyle(fontSize: 20),
           )),
           const SizedBox(height: 15),
