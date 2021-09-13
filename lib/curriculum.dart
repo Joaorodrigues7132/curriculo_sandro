@@ -1,4 +1,6 @@
+import 'package:curriculo_sandro/custom_icons.dart';
 import 'package:flutter/material.dart';
+import 'dart:html' as html;
 
 class Curriculum extends StatelessWidget {
   const Curriculum({Key key}) : super(key: key);
@@ -55,6 +57,26 @@ class Curriculum extends StatelessWidget {
                   height: 150,
                   width: 150,
                 )),
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              IconButton(
+                icon: Icon(CustomIcons.instagram),
+                onPressed: () {
+                  html.window.open(
+                      'https://www.instagram.com/joaoflavio_rodrigues/', 'web');
+                },
+              ),
+              IconButton(
+                icon: Icon(CustomIcons.linkedin_squared),
+                onPressed: () {
+                  html.window.open(
+                      'https://www.linkedin.com/in/jo%C3%A3o-fl%C3%A1vio-de-assis-ara%C3%BAjo-rodrigues-b341981a1/',
+                      'web');
+                },
+              ),
+            ],
           ),
           const SizedBox(height: 30),
           Padding(
