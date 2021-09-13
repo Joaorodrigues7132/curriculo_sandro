@@ -7,14 +7,25 @@ class Curriculum extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        
-          title: Center(child:const Text(
-        "Currículo",
-        
-        style: TextStyle(fontSize: 50),
-      ) ,) ),
+          title: Center(
+        child: const Text(
+          "Currículo",
+          style: TextStyle(fontSize: 35),
+        ),
+      )),
       body: Container(
-        child: Text("marcos seu gostoso"),
+        child: Center(
+            child: Column(
+          children: [
+            Padding(
+              padding: const EdgeInsets.all(20.0),
+              child: const Text(
+                "Matheus Eduardo da Silva",
+                style: TextStyle(fontSize: 20),
+              ),
+            ),
+          ],
+        )),
       ),
     );
   }
