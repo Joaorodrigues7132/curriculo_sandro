@@ -1,5 +1,6 @@
 import 'package:curriculo_sandro/custom_icons.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'dart:html' as html;
 
 class Curriculum extends StatelessWidget {
@@ -23,7 +24,8 @@ class Curriculum extends StatelessWidget {
               child: Center(
                   child: Text(
                 "João Flávio de Assis Araújo Rodrigues",
-                style: TextStyle(fontSize: 20),
+                style: GoogleFonts.roboto(
+                    fontWeight: FontWeight.w900, fontSize: 30),
               )),
             ),
           ),
